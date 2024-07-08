@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1440px;
+    font-family: "Manrope", sans-serif;
+}
+.container{
+    width: 90%;
+    margin: 20px auto;
+}
+@media screen and (min-width: 640px) {
+    .container{
+        width: 1170px;
+        margin: 40px auto;
+    }
+}
